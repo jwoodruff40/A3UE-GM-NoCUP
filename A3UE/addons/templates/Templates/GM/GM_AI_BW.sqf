@@ -89,7 +89,7 @@
 ["minefieldAT", ["gm_minestatic_at_dm21", "gm_minestatic_at_dm1233"]] call _fnc_saveToTemplate;
 ["minefieldAPERS", ["gm_minestatic_ap_dm31"]] call _fnc_saveToTemplate;
 
-#include "\x\A3A\addons\core\Templates\Templates\GM\GM_Vehicle_Attributes.sqf"
+#include "GM_Vehicle_Attributes.sqf"
 
 /////////////////////
 ///  Identities   ///

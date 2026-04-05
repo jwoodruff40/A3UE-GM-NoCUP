@@ -1,8 +1,6 @@
 ["attributesVehicles", [
 
-    // CUP/GM IFVs are all too fragile to get the full value
-    ["CUP_O_BMP3_RU", ["cost", 120], ["threat", 150]],
-    ["CUP_O_BMP2_RU", ["cost", 120], ["threat", 150]],
+    // GM IFVs are all too fragile to get the full value
     ["gm_gc_army_bmp1sp2", ["cost", 120], ["threat", 150]],
     ["gm_gc_army_bmp1sp2_olw", ["cost", 120], ["threat", 150]],
     ["gm_gc_army_bmp1sp2_un", ["cost", 120], ["threat", 150]],
@@ -19,10 +17,8 @@
     ["gm_ge_army_marder1a2_un", ["cost", 120], ["threat", 150]],
     ["gm_ge_army_marder1a2_win", ["cost", 120], ["threat", 150]],
     ["gm_ge_army_marder1a2_wiw", ["cost", 120], ["threat", 150]],
-    ["CUP_B_M2Bradley_USA_W", ["cost", 120], ["threat", 150]],
 
     // Autocannons in light-armed
-    ["CUP_O_GAZ_Vodnik_BPPU_RU", ["cost", 75], ["threat", 120]],
     ["gm_ge_army_luchsa1", ["cost", 75], ["threat", 120]],
     ["gm_ge_army_marder1a2_wiw", ["cost", 75], ["threat", 120]],
     ["gm_ge_army_luchsa2", ["cost", 75], ["threat", 120]],

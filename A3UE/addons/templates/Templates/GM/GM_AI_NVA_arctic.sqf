@@ -25,10 +25,8 @@
     "gm_gc_army_uaz469_dshkm_win", "gm_gc_army_uaz469_dshkm_un", "gm_gc_army_brdm2_win", "gm_gc_army_brdm2_un", "gm_gc_army_brdm2_olw",
     "dcx_gm_gc_btr40_01", "dcx_gm_gc_btr40_mg_02", "dcx_gm_gc_btr40_mg_01", "dcx_gm_gc_btr40_mg_04", "gm_gc_army_brdm2rkh_win", "gm_gc_army_brdm2rkh_un", "gm_gc_army_brdm2rkh_olw"
 ]] call _fnc_saveToTemplate;
-["vehiclesTrucks", [
-    "gm_gc_army_btr60pa_win", "gm_gc_army_btr60pa_un", "gm_gc_army_ural375d_cargo_un", "gm_gc_army_ural4320_cargo_un", 
-    "gm_gc_army_ural4320_cargo_win", "gm_gc_army_ural375d_cargo_win", "gm_gc_army_ural375d_cargo_olw", "gm_gc_army_ural4320_cargo_olw", "gm_gc_army_btr60pa_olw"
-]] call _fnc_saveToTemplate;
+private _vehiclesTrucks = ["gm_gc_army_btr60pa_win", "gm_gc_army_btr60pa_un", "gm_gc_army_ural375d_cargo_un", "gm_gc_army_ural4320_cargo_un", 
+    "gm_gc_army_ural4320_cargo_win", "gm_gc_army_ural375d_cargo_win", "gm_gc_army_ural375d_cargo_olw", "gm_gc_army_ural4320_cargo_olw", "gm_gc_army_btr60pa_olw"];
 ["vehiclesCargoTrucks", ["gm_gc_army_ural4320_cargo_olw", "gm_gc_army_ural375d_cargo_olw", "gm_gc_army_ural375d_cargo_un", "gm_gc_army_ural4320_cargo_un", "gm_gc_army_ural4320_cargo_win", "gm_gc_army_ural375d_cargo_win", "gm_gc_army_ural44202_win", "gm_gc_army_ural44202_un", "gm_gc_army_ural44202_olw"]] call _fnc_saveToTemplate;
 ["vehiclesAmmoTrucks", ["gm_gc_army_ural4320_reammo_win", "gm_gc_army_ural4320_reammo_un", "gm_gc_army_ural4320_reammo_olw"]] call _fnc_saveToTemplate;
 ["vehiclesRepairTrucks", ["gm_gc_army_ural4320_repair_win", "gm_gc_army_ural4320_repair_un", "gm_gc_army_ural4320_repair_olw"]] call _fnc_saveToTemplate;
@@ -37,11 +35,11 @@
 ["vehiclesLightAPCs", ["gm_gc_army_btr60pb_win", "gm_gc_army_btr60pb_un", "gm_gc_army_btr60pb_olw", "gm_gc_army_btr60pa_dshkm_win", "gm_gc_army_btr60pa_dshkm_un", "gm_gc_army_btr60pa_dshkm_olw"]] call _fnc_saveToTemplate;
 ["vehiclesAPCs", ["gm_pl_army_ot64a_olw", "gm_gc_army_bmp1sp2_olw", "gm_gc_army_bmp1sp2_un", "gm_gc_army_bmp1sp2_win"]] call _fnc_saveToTemplate;
 ["vehiclesIFVs", ["gm_gc_army_bmp1sp2_olw", "gm_gc_army_bmp1sp2_un", "gm_gc_army_bmp1sp2_win"]] call _fnc_saveToTemplate;
-["vehiclesTanks", ["gm_gc_army_t55_win", "gm_gc_army_t55a_win", "gm_gc_army_t55ak_win", "gm_gc_army_t55am2_win", "gm_gc_army_t55am2b_win", "gm_gc_army_pt76b_un", "gm_gc_army_t55_un", "gm_gc_army_t55a_un", "gm_gc_army_t55ak_un", "gm_gc_army_t55am2_un", "gm_gc_army_t55am2_un", "gm_gc_army_pt76b_olw", "gm_gc_army_t55_olw", "gm_gc_army_t55a_olw", "gm_gc_army_t55ak_olw", "gm_gc_army_t55am2_olw", "gm_gc_army_t55am2b_olw"]] call _fnc_saveToTemplate;
+private _vehiclesTanks = ["gm_gc_army_t55_win", "gm_gc_army_t55a_win", "gm_gc_army_t55ak_win", "gm_gc_army_t55am2_win", "gm_gc_army_t55am2b_win", "gm_gc_army_pt76b_un", "gm_gc_army_t55_un", "gm_gc_army_t55a_un", "gm_gc_army_t55ak_un", "gm_gc_army_t55am2_un", "gm_gc_army_t55am2_un", "gm_gc_army_pt76b_olw", "gm_gc_army_t55_olw", "gm_gc_army_t55a_olw", "gm_gc_army_t55ak_olw", "gm_gc_army_t55am2_olw", "gm_gc_army_t55am2b_olw"];
+private _vehiclesLightTanks = ["gm_gc_army_pt76b_win", "dcx_gm_gc_t54b", "dcx_gm_gc_ot54"];
 ["vehiclesAA", ["gm_gc_army_zsu234v1_win", "gm_gc_army_zsu234v1_un", "gm_gc_army_zsu234v1_olw", "dcx_gm_gc_btr50pk_02", "dcx_gm_gc_btr40_mg_03"]] call _fnc_saveToTemplate;
 
 ["vehiclesAirborne", ["gm_gc_army_btr60pb_win", "gm_gc_army_btr60pb_un", "gm_gc_army_btr60pb_olw", "gm_gc_army_btr60pa_dshkm_win", "gm_gc_army_btr60pa_dshkm_un", "gm_gc_army_btr60pa_dshkm_olw"]] call _fnc_saveToTemplate;
-["vehiclesLightTanks",  ["gm_gc_army_pt76b_win", "dcx_gm_gc_t54b", "dcx_gm_gc_ot54"]] call _fnc_saveToTemplate;
 
 ["vehiclesTransportBoats", ["B_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
 ["vehiclesGunBoats", ["vn_o_boat_03_01", "vn_o_boat_04_01"]] call _fnc_saveToTemplate;
@@ -52,20 +50,20 @@
 ["vehiclesPlanesAA", ["dcx_gm_gc_mig19s", "dcx_gm_gc_mig21pfm"]] call _fnc_saveToTemplate;
 ["vehiclesPlanesTransport", ["gm_gc_airforce_l410t"]] call _fnc_saveToTemplate;
 
-["vehiclesHelisLight", ["gm_pl_airforce_mi2ch_un", "gm_gc_airforce_mi2p_un"]] call _fnc_saveToTemplate;
-["vehiclesHelisTransport", ["gm_gc_airforce_mi2t_un", "gm_pl_airforce_mi2t_un"]] call _fnc_saveToTemplate;
-["vehiclesHelisAttack", ["gm_gc_airforce_mi2urn_un", "gm_gc_airforce_mi2us_un"]] call _fnc_saveToTemplate;
-["vehiclesHelisLightAttack", ["gm_gc_airforce_mi2urn_un", "gm_gc_airforce_mi2us_un", "gm_pl_airforce_mi2urp_un", "gm_pl_airforce_mi2urpg_un"]] call _fnc_saveToTemplate;
+private _vehiclesHelisLight = ["gm_pl_airforce_mi2ch", "gm_gc_airforce_mi2p"];
+private _vehiclesHelisTransport = ["gm_gc_airforce_mi2t", "gm_pl_airforce_mi2t"];
+private _vehiclesHelisAttack = ["gm_gc_airforce_mi2urn", "gm_gc_airforce_mi2us"];
+private _vehiclesHelisLightAttack = ["gm_gc_airforce_mi2urn", "gm_gc_airforce_mi2us", "gm_pl_airforce_mi2urp", "gm_pl_airforce_mi2urpg"];
 
-["vehiclesArtillery", ["gm_gc_army_2s1_win", "gm_gc_army_ural375d_mlrs_win", "gm_gc_army_2s1_un", "gm_gc_army_ural375d_mlrs_un", "gm_gc_army_2s1_olw", "gm_gc_army_ural375d_mlrs_olw"]] call _fnc_saveToTemplate;
-["magazines", createHashMapFromArray [
+private _vehiclesArtillery = ["gm_gc_army_ural375d_mlrs", "gm_gc_army_2s1"];
+private _artilleryMagazines = createHashMapFromArray [
     ["gm_gc_army_ural375d_mlrs_win", ["gm_40Rnd_mlrs_122mm_he_9m22u","gm_40Rnd_mlrs_122mm_icm_9m218","gm_40Rnd_mlrs_122mm_mine_9m28k","gm_40Rnd_mlrs_122mm_mine_9m22k"]],
     ["gm_gc_army_ural375d_mlrs_un", ["gm_40Rnd_mlrs_122mm_he_9m22u","gm_40Rnd_mlrs_122mm_icm_9m218","gm_40Rnd_mlrs_122mm_mine_9m28k","gm_40Rnd_mlrs_122mm_mine_9m22k"]],
     ["gm_gc_army_ural375d_mlrs_olw", ["gm_40Rnd_mlrs_122mm_he_9m22u","gm_40Rnd_mlrs_122mm_icm_9m218","gm_40Rnd_mlrs_122mm_mine_9m28k","gm_40Rnd_mlrs_122mm_mine_9m22k"]],
     ["gm_gc_army_2s1_win", ["gm_28Rnd_122x447mm_he_of462","gm_28Rnd_122x447mm_he_3of56","gm_28Rnd_122x447mm_heat_bk6m","gm_28Rnd_122x447mm_heat_t_bk13"]],
     ["gm_gc_army_2s1_un", ["gm_28Rnd_122x447mm_he_of462","gm_28Rnd_122x447mm_he_3of56","gm_28Rnd_122x447mm_heat_bk6m","gm_28Rnd_122x447mm_heat_t_bk13"]],
     ["gm_gc_army_2s1_olw", ["gm_28Rnd_122x447mm_he_of462","gm_28Rnd_122x447mm_he_3of56","gm_28Rnd_122x447mm_heat_bk6m","gm_28Rnd_122x447mm_heat_t_bk13"]]
-]] call _fnc_saveToTemplate;
+];
 
 ["uavsAttack", []] call _fnc_saveToTemplate;
 ["uavsPortable", []] call _fnc_saveToTemplate;
@@ -79,7 +77,7 @@
 ["vehiclesPolice", ["gm_gc_pol_p601"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["gm_pl_army_dshkm_aatripod", "gm_gc_army_dshkm_aatripod", "dcx_gm_gc_static_pk_high", "dcx_gm_gc_static_rpd_high"]] call _fnc_saveToTemplate;
-["staticAT", ["gm_gc_army_spg9_tripod", "gm_gc_army_fagot_launcher_tripod", "gm_pl_army_fagot_launcher_tripod", "gm_pl_army_spg9_tripod", "dcx_gm_gc_static_malyutka"]] call _fnc_saveToTemplate;
+private _staticAT = ["gm_gc_army_spg9_tripod", "gm_gc_army_fagot_launcher_tripod", "gm_pl_army_fagot_launcher_tripod", "gm_pl_army_spg9_tripod", "dcx_gm_gc_static_malyutka"];
 ["staticAA", ["dcx_east_static_zpu4"]] call _fnc_saveToTemplate;
 ["staticMortars", ["dcx_gm_gc_static_mortar_type53"]] call _fnc_saveToTemplate;
 ["staticHowitzers", ["dcx_gm_gc_static_d44_artillery"]] call _fnc_saveToTemplate;
@@ -96,7 +94,21 @@
 ["minefieldAT", ["gm_minestatic_at_tm46"]] call _fnc_saveToTemplate;
 ["minefieldAPERS", ["gm_minestatic_ap_pfm1"]] call _fnc_saveToTemplate;
 
-#include "\x\A3A\addons\core\Templates\Templates\GM\GM_Vehicle_Attributes.sqf"
+#include "GM_Vehicle_Attributes.sqf"
+
+if ("csla" in A3A_enabledDLC) then {
+    #include "vehicles_csla.sqf"
+};
+["vehiclesTrucks", _vehiclesTrucks] call _fnc_saveToTemplate;
+["vehiclesTanks", _vehiclesTanks] call _fnc_saveToTemplate;
+["vehiclesLightTanks", _vehiclesLightTanks] call _fnc_saveToTemplate;
+["vehiclesHelisLight", _vehiclesHelisLight] call _fnc_saveToTemplate;
+["vehiclesHelisTransport", _vehiclesHelisTransport] call _fnc_saveToTemplate;
+["vehiclesHelisAttack", _vehiclesHelisAttack] call _fnc_saveToTemplate;
+["vehiclesHelisLightAttack", _vehiclesHelisLightAttack] call _fnc_saveToTemplate;
+["vehiclesArtillery", _vehiclesArtillery] call _fnc_saveToTemplate;
+["magazines", _artilleryMagazines] call _fnc_saveToTemplate;
+["staticAT", _staticAT] call _fnc_saveToTemplate;
 
 /////////////////////
 ///  Identities   ///
