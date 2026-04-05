@@ -1,4 +1,4 @@
-#define MODFOLDER A3UE
+#define MODFOLDER a3ue_gm_nocup
 #ifndef PREFIX
-    #define PREFIX A3UE
+    #define PREFIX a3ue_gm_nocup
 #endif
